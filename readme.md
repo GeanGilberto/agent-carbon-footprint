@@ -6,7 +6,8 @@
       src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
       width="100px" 
     />
-    <h1>Título do Curso ou Projeto</h1>
+    <h1>CI&T - Do Prompt ao Agente</h1>
+    <h2>Registro e Autorização de App no Trello com Python</h2>
   </p>
 </div>
 <!--END_SECTION:header-->
@@ -17,86 +18,88 @@
 
 </p>
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
-
 <br/>
 <br/>
 
 ## 💻 Sobre o Projeto
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+Este projeto foi desenvolvido como parte do desafio da Digital Innovation One (DIO) com o objetivo de aprender o processo de registro de aplicações no Trello, geração de credenciais de acesso e autenticação utilizando Python.
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+A atividade aborda conceitos fundamentais para integrações com APIs REST, incluindo autenticação baseada em API Key e Token.
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+## 🎯 Objetivos
 
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
+- Criar uma aplicação no Trello.
+- Gerar API Key.
+- Gerar Token de acesso.
+- Configurar autenticação.
+- Realizar chamadas para a API do Trello utilizando Python.
 
-- _Exemplo_:
+## 🛠 Tecnologias Utilizadas
 
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
+- Python 3
+- Trello API
+- Requests
+- Git
+- GitHub
 
-- [Outros pré-requisitos, se aplicável]
+## 🔑 Configuração do Trello
 
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
+### 1. Criar uma aplicação
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+Acesse o portal de gerenciamento de aplicações do Trello e crie uma nova aplicação.
 
-- [Lista das habilidades principais a serem desenvolvidas]
+### 2. Gerar API Key
 
-  - [Subhabilidades relacionadas, se aplicável]
+Após criar a aplicação, gere sua API Key.
 
-- _Exemplo_:
-  - Java
-    - Api Rest
+### 3. Gerar Token
 
-## 🎯 Objetivos e Resultados Esperados
+Autorize a aplicação e gere o Token de acesso que será utilizado nas requisições.
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+## ⚙️ Configuração do Ambiente
 
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/nome-repositorio.git
+
+Entre na pasta:
+
+cd nome-repositorio
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+## 🔒 Variáveis de Ambiente
+
+Crie um arquivo .env:
+
+TRELLO_API_KEY=sua_api_key
+TRELLO_TOKEN=seu_token
+
+## 🚀 Executando o Projeto
+
+python main.py
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto foi possível aprender:
+
+- Como funciona a autenticação da API do Trello.
+- Geração e utilização de Tokens de acesso.
+- Consumo de APIs REST com Python.
+- Organização de credenciais utilizando variáveis de ambiente.
+- Boas práticas de integração com serviços externos.
+
+## 📌 Referências
+
+- Documentação Oficial do Trello
+- Documentação da DIO
+
+## 👨‍💻 Autor
+
+Desenvolvido por Coimbra durante o Bootcamp da Digital Innovation One.
 
 <!--START_SECTION:footer-->
 
