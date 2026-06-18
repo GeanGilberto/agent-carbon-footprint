@@ -61,15 +61,21 @@ Autorize a aplicação e gere o Token de acesso que será utilizado nas requisi�
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/nome-repositorio.git
+````
+git clone https://github.com/GeanGilberto/agent-carbon-footprint.git
+````
 
 Entre na pasta:
 
-cd nome-repositorio
+````
+cd agent-carbon-footprint
+````
 
 Instale as dependências:
 
+````
 pip install -r requirements.txt
+````
 
 ## 🔒 Variáveis de Ambiente
 
